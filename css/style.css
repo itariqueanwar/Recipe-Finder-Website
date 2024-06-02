@@ -201,45 +201,7 @@ h1, h2, h3, h4, h5, h6{
     display: none;
 }
 
-/* service */
-.service{
-    background-color: var(--snow);
-}
-.service-item{
-    text-align: center;
-    margin: 1.2rem 0;
-    padding: 1.6rem 0;
-}
-.service-item span{
-    font-size: 2.4rem;
-}
-.service-item h3{
-    font-weight: 400;
-}
 
-/* openings */
-.openings{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/opening-bg.jpg) center/cover no-repeat fixed;
-    color: #fff;
-    text-align: center;
-    clip-path: ellipse(100% 55% at 48% 44%);
-}
-.openings-row .text{
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-.openings-row h3{
-    font-size: 1.5rem;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-}
-.openings-row ul{
-    margin: 1rem 0;
-}
-.openings-row ul li{
-    margin: 0.65rem 0;
-    font-weight: 400;
-}
 
 /* menu */
 .menu-row{
@@ -271,6 +233,7 @@ h1, h2, h3, h4, h5, h6{
 .menu-text a:hover{
     background: var(--nero);
 }
+
 /* team */
 .team{
     background: var(--snow);

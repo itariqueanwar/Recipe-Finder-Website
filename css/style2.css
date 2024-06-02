@@ -281,6 +281,34 @@ body{
 
 
 
+/* Play and Pause button styles */
+#play-button, #pause-button, #speak-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#play-button {
+    background-color: #007bff;
+}
+
+#play-button:hover {
+    background-color: #0056b3;
+}
+
+#pause-button {
+    background-color: #ffcc00;
+}
+
+#pause-button:hover {
+    background-color: #cc9900;
+}
+
+
 
 
 
